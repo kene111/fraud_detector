@@ -1,0 +1,323 @@
+html, body {
+  margin:0;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+  position: relative;
+}
+#container{
+
+	height:95vh;
+}
+
+
+#fraud_head{
+
+	text-align: center;
+	padding: 3px;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 60px;
+
+}
+
+#fraud_para{
+
+	text-align: center;
+	padding: 3px;
+	font-family: 'Scheherazade', serif;
+	font-size: 50px;
+
+}
+.fraudinput_class{
+
+	width: 290px;
+    height: 19px; 
+    resize: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    position:relative;
+    border-radius: 15px;
+}
+
+#resultDiv{
+
+    padding: 9px;
+    border: 3px solid black;
+    width:300px;
+    background-color: gray;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+
+#stats{
+
+	color: white;
+	text-align: center;
+	font-family: 'Scheherazade', serif;
+	font-size: 30px;
+}
+
+.info{
+	
+	color: white;
+	padding:3px;
+	font-family: 'Scheherazade', serif;
+	font-size: 20px;
+
+}
+
+.transferLink{
+
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 30px;
+
+}
+
+
+#footer{
+
+	width: 100%;
+	font-family: 'Caveat Brush', cursive;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 9px;
+}
+
+
+/*----------------------------------------------- small screens-------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+
+
+#fraud_head{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 90px;
+
+}
+
+#fraud_para{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Scheherazade', serif;
+	font-size: 60px;
+
+}
+
+#resultDiv{
+
+    padding: 9px;
+    border: 3px solid black;
+    width:300px;
+    height: 550px;
+    background-color: gray;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+
+#stats{
+
+	color: white;
+	text-align: center;
+	font-family: 'Scheherazade', serif;
+	font-size: 30px;
+}
+
+.info{
+	
+	color: white;
+	padding:3px;
+	font-family: 'Scheherazade', serif;
+	font-size: 20px;
+
+}
+
+#footer{
+
+	width: 100%;
+	font-family: 'Caveat Brush', cursive;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 9px;
+}
+
+.transferLink{
+
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+ 
+}
+
+/*----------------------------------------------- medium screens-------------------------------------------------------------*/
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+#container{
+
+	height:100vh;
+}
+
+
+#fraud_head{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 90px;
+
+}
+
+#fraud_para{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Scheherazade', serif;
+	font-size: 60px;
+
+}
+
+#resultDiv{
+
+    padding: 9px;
+    border: 3px solid black;
+    width:300px;
+    height: 550px;
+    background-color: gray;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+
+#stats{
+
+	color: white;
+	text-align: center;
+	font-family: 'Scheherazade', serif;
+	font-size: 30px;
+}
+
+.info{
+	
+	color: white;
+	padding:3px;
+	font-family: 'Scheherazade', serif;
+	font-size: 20px;
+
+}
+
+#footer{
+
+	width: 100%;
+	font-family: 'Caveat Brush', cursive;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 9px;
+}
+
+.transferLink{
+
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/*
+@media (min-width: 900px) and (max-width: 1500px){
+
+	#container{
+
+	height:95vh;
+}
+
+#fraud_head{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 90px;
+
+}
+
+#fraud_para{
+
+	text-align: center;
+	padding: 1.5px;
+	font-family: 'Scheherazade', serif;
+	font-size: 60px;
+
+}
+
+#resultDiv{
+
+    padding: 9px;
+    border: 3px solid black;
+    width:600px;
+    height: 800px;
+    background-color: gray;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+
+#stats{
+
+	color: white;
+	text-align: center;
+	font-family: 'Scheherazade', serif;
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+.info{
+	
+	color: white;
+	padding:3px;
+	font-family: 'Scheherazade', serif;
+	font-size: 30px;
+	margin-top: 35px;
+	margin-left: 45px;
+
+}
+
+#footer{
+
+	width: 100%;
+	font-family: 'Caveat Brush', cursive;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 9px;
+}
+
+#transferLink{
+
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+
+
+}*/

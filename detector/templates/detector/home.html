@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Fraud Detector</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type= "text/css" href="{% static 'detector/fdcss.css' %}">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Scheherazade&display=swap" rel="stylesheet">
+	<META HTTP-EQUIV="refresh" CONTENT="6">
+</head>
+<body>
+	<div id="container">
+
+		<h1 id="fraud_head"> Credit Card Fraud Detector </h1>
+		<p id="fraud_para"> Transaction Live Feed. </p>
+
+
+		<div id ="resultDiv">
+		    <h4 id ="stats"> STATS PER TRANSACTION </h4>   
+		    <p class= "info"> Transaction Id : {{ transact_id }} </p>
+			<p class= "info"> Cost saving for the transaction : {{ cost_saving }} </p>
+			<p class= "info"> F1 Score for the transaction : {{ f1Score }} </p>
+			<p class= "info"> Prediction for the transaction : {{ prediction }} </p>
+			<p class= "info"> Prediction Probability for the transaction : {{ predict_probability }} </p>
+			<p class= "info"> Conclusion : {{ fraud }} </p>
+		
+	    </div>
+
+	    <p class="transferLink"> Click <a href="https://static-fraud-detection-app.herokuapp.com/">here</a> to check individual transactions.   </p>
+
+	    <p class="transferLink"> Upload your own data <a href="https://fraud-detection-hamoye.herokuapp.com/">here</a>. </p>
+
+	    <footer id="footer">  <p> Fraud Detection OSP Hamoye Team ©  2020 </p> </footer>
+
+	    </div>
+
+    
+
+
+
+</body>
+</html>
